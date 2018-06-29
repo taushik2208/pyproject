@@ -219,11 +219,11 @@ acosh = Button(calc, height=2,width=4, padx=10,pady=10, text = "acosh" , bg= "gr
 acosh["command"]=lambda: sum1.operation("acosh")
 acosh.grid(row=3,column=0,padx=1,pady=1)
 
-asinh = Button(calc, height=2,width=4, padx=10,pady=10, text = "acosh" , bg= "green")
+asinh = Button(calc, height=2,width=4, padx=10,pady=10, text = "asinh" , bg= "green")
 asinh["command"]=lambda: sum1.operation("asinh")
 asinh.grid(row=4,column=0,padx=1,pady=1)
 
-atanh = Button(calc, height=2,width=4, padx=10,pady=10, text = "acosh" , bg= "green")
+atanh = Button(calc, height=2,width=4, padx=10,pady=10, text = "atanh" , bg= "green")
 atanh["command"]=lambda: sum1.operation("atanh")
 atanh.grid(row=5,column=0,padx=1,pady=1)
 
